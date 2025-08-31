@@ -1,0 +1,37 @@
+{
+  "questions": [
+    {
+      "id": "tech_1",
+      "category": "technical",
+      "question": "Explain the difference between a list and a tuple in Python.",
+      "expected_keywords": [
+        "mutable",
+        "immutable",
+        "performance",
+        "memory"
+      ]
+    },
+    {
+      "id": "tech_2",
+      "category": "technical",
+      "question": "How would you design a REST API for a user management system?",
+      "expected_keywords": [
+        "endpoints",
+        "HTTP methods",
+        "authentication",
+        "validation"
+      ]
+    },
+    {
+      "id": "tech_3",
+      "category": "technical",
+      "question": "Describe your experience with database optimization.",
+      "expected_keywords": [
+        "indexing",
+        "query optimization",
+        "normalization",
+        "performance"
+      ]
+    }
+  ]
+}

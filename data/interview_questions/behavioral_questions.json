@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "id": "behav_1",
+      "category": "behavioral",
+      "question": "Tell me about a challenging project you worked on and how you overcame obstacles.",
+      "expected_keywords": [
+        "problem-solving",
+        "collaboration",
+        "learning",
+        "persistence"
+      ]
+    },
+    {
+      "id": "behav_2",
+      "category": "behavioral",
+      "question": "How do you handle working with difficult team members?",
+      "expected_keywords": [
+        "communication",
+        "patience",
+        "conflict resolution",
+        "teamwork"
+      ]
+    }
+  ]
+}

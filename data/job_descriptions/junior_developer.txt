@@ -1,0 +1,24 @@
+JUNIOR SOFTWARE DEVELOPER
+
+We are looking for a motivated Junior Developer to join our team and grow their skills in a collaborative environment.
+
+REQUIREMENTS:
+- 1-3 years of experience in software development
+- Knowledge of Python or JavaScript
+- Basic understanding of web development
+- Familiarity with Git version control
+- Strong learning ability and teamwork skills
+- Bachelor's degree in Computer Science or related field
+
+RESPONSIBILITIES:
+- Develop and maintain web applications
+- Collaborate with senior developers
+- Participate in code reviews
+- Write clean, maintainable code
+- Learn new technologies and frameworks
+
+NICE TO HAVE:
+- Experience with React, Django, or Flask
+- Knowledge of databases and SQL
+- Understanding of REST APIs
+- Experience with testing frameworks

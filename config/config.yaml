@@ -1,0 +1,85 @@
+# Configuration file for 3-Day Candidate Evaluation Prototype
+
+# Model Configuration
+model:
+  name: "microsoft/DialoGPT-medium"
+  alternative_model: "microsoft/DialoGPT-small"  # Fallback for lower resources
+  max_new_tokens: 2048
+  temperature: 0.8
+  top_p: 0.9
+  do_sample: true
+  device: "auto"  # "cpu", "cuda", or "auto"
+
+# Hardware Configuration
+hardware:
+  use_gpu: true
+  max_memory: "4GB"
+  batch_size: 1
+
+# File Paths
+paths:
+  data_dir: "data"
+  outputs_dir: "outputs"
+  cv_samples: "data/cv_samples"
+  job_descriptions: "data/job_descriptions"
+  interview_questions: "data/interview_questions"
+  sample_responses: "data/sample_responses"
+  cv_results: "outputs/cv_analysis_results"
+  interview_results: "outputs/interview_scores"
+  final_reports: "outputs/final_reports"
+
+# CV Analysis Configuration
+cv_analysis:
+  required_skills_weight: 0.4
+  experience_weight: 0.3
+  education_weight: 0.2
+  soft_skills_weight: 0.1
+  min_confidence_threshold: 0.6
+
+# Interview Scoring Configuration
+interview_scoring:
+  technical_weight: 0.4
+  communication_weight: 0.3
+  problem_solving_weight: 0.2
+  cultural_fit_weight: 0.1
+  scoring_scale: 1-10
+  min_acceptable_score: 6
+
+# Report Generation Configuration
+report_generation:
+  output_format: "markdown"  # "markdown", "json", "html"
+  include_charts: true
+  include_recommendations: true
+  max_candidates_per_report: 10
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "{time:YYYY-MM-DD HH:mm:ss} | {level} | {message}"
+  file: "logs/evaluation.log"
+
+# Evaluation Criteria
+evaluation_criteria:
+  technical_skills:
+    - "Programming Languages"
+    - "Frameworks & Tools"
+    - "System Design"
+    - "Problem Solving"
+  
+  soft_skills:
+    - "Communication"
+    - "Teamwork"
+    - "Leadership"
+    - "Adaptability"
+  
+  experience_levels:
+    - "Junior (0-2 years)"
+    - "Mid-level (3-5 years)"
+    - "Senior (6-10 years)"
+    - "Expert (10+ years)"
+
+# Prompt Templates (simplified - full templates in prompt_templates.py)
+prompts:
+  cv_analysis: "Analyze the following CV against the job description..."
+  interview_scoring: "Score the following interview response..."
+  report_generation: "Generate a comprehensive evaluation report..."

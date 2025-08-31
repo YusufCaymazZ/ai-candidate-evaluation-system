@@ -1,0 +1,8 @@
+{
+  "candidate_id": "junior_dev_001",
+  "responses": {
+    "tech_1": "Lists can be changed but tuples cannot. Lists use [] and tuples use (). I think tuples are faster.",
+    "tech_2": "I would create endpoints for users with GET and POST methods. I'm still learning about authentication.",
+    "behav_1": "I worked on a group project in school where we had to build a web app. It was challenging because we had different schedules, but we used Slack to communicate and met regularly."
+  }
+}

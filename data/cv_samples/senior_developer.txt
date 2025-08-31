@@ -1,0 +1,27 @@
+JOHN DOE
+Senior Software Developer
+john.doe@email.com | +1-555-0123 | linkedin.com/in/johndoe
+
+PROFESSIONAL SUMMARY
+Experienced software developer with 8+ years in full-stack development, specializing in Python, JavaScript, and cloud technologies. Led multiple successful projects and mentored junior developers.
+
+TECHNICAL SKILLS
+Programming Languages: Python, JavaScript, Java, SQL
+Frameworks: Django, React, Spring Boot, Node.js
+Cloud Platforms: AWS, Azure, Google Cloud
+Databases: PostgreSQL, MongoDB, Redis
+Tools: Git, Docker, Kubernetes, Jenkins
+
+WORK EXPERIENCE
+Senior Developer | TechCorp Inc. | 2020-Present
+- Led development of microservices architecture serving 1M+ users
+- Mentored 5 junior developers and conducted code reviews
+- Implemented CI/CD pipelines reducing deployment time by 60%
+
+Software Developer | StartupXYZ | 2018-2020
+- Developed REST APIs and frontend applications
+- Collaborated with cross-functional teams on agile projects
+- Optimized database queries improving performance by 40%
+
+EDUCATION
+Bachelor of Science in Computer Science | University of Technology | 2018

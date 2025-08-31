@@ -1,0 +1,42 @@
+# Core ML and AI dependencies
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+sentence-transformers>=2.2.0
+
+# Data processing and analysis
+pandas>=1.5.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# File handling and utilities
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+openpyxl>=3.1.0
+python-dotenv>=1.0.0
+
+# Configuration and logging
+pyyaml>=6.0
+loguru>=0.7.0
+
+# Web framework for UI (optional)
+streamlit>=1.25.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Development tools
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Additional utilities
+tqdm>=4.65.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+plotly>=5.17.0

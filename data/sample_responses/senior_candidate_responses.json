@@ -1,0 +1,8 @@
+{
+  "candidate_id": "senior_dev_001",
+  "responses": {
+    "tech_1": "Lists and tuples are both sequence types in Python, but lists are mutable while tuples are immutable. Lists use square brackets and can be modified after creation, while tuples use parentheses and cannot be changed. Tuples are generally more memory efficient and slightly faster for iteration.",
+    "tech_2": "I would design RESTful endpoints like /users for user management, /users/{id} for specific users, using GET, POST, PUT, DELETE methods. I'd implement JWT authentication, input validation, and proper HTTP status codes.",
+    "behav_1": "I led a project to migrate a monolithic application to microservices. The main challenge was data consistency across services. I solved this by implementing event sourcing and CQRS patterns, which improved system reliability."
+  }
+}
